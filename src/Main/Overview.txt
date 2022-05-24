@@ -24,4 +24,7 @@ PILLARS OF OOP
 Abstraction
 Encapsulation - a protective wrapper that prevents the code and data from being arbitrarily accessed by other code defined outside the wrapper.
   Access to the code and data inside the wrapper is tightly controlled through a well-defined interface.
-Inheritance - is the process by which one object acquires the properties of another object
+Inheritance - is the process by which one object acquires the properties of another object.
+Polymorphism - from Greek, meaning “many forms”, is a feature that allows one interface to be used for a general class of actions.
+  • Overriding - overwriting the method of a parent class with another implementation from the child class
+  • Overloading - changing the behavior of a particular model depending on the parameter used during the invocation of that method
