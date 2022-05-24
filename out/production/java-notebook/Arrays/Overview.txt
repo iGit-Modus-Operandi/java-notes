@@ -1,0 +1,13 @@
+DEFINITION
+  - An array is a group of like-typed variables that are referred to by a common name.
+  - Arrays of any type can be created and may have one or more dimensions.
+  - A specific element in an array is accessed by its index.
+
+DECLARATION
+  type[] var-name;
+  - type declares the element type (also called the base type) of the array
+  - element type determines the data type of each element that comprises the array
+  - var-name is the identifier or name you assigned to the array
+
+INITIALIZATION
+  array-var = new type [size];
