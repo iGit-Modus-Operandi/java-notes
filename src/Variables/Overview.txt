@@ -1,0 +1,11 @@
+The Primitive/Simple Types
+Java defines eight primitive types of data: byte, short, int, long, char, float, double, and boolean.
+• Integers - This group includes byte, short, int, and long, which are for whole-valued signed numbers.
+    long: 64 bits (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807) - useful when big, whole numbers are needed
+    int: 32 bits (–2,147,483,648 to 2,147,483,647) - most commonly used integer type
+    short: 16 bits (–32,768 to 32,767) - probably the least used Java type
+    byte: 8 bits or 1 byte (–128 to 127) - especially useful when you’re working with a stream of data from a network or file.
+        They are also useful when you’re working with raw binary data that may not be directly compatible with Java’s other built-in types
+• Floating-point numbers - This group includes float and double, which represent numbers with fractional precision.
+• Characters - This group includes char, which represents symbols in a character set, like letters and numbers.
+• Boolean - This group includes boolean, which is a special type for representing true/false values.
