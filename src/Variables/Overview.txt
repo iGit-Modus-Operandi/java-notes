@@ -1,14 +1,13 @@
-The Primitive/Simple Types
+RPIMITIVE / SIMPLE TYPES
     Java defines eight primitive types of data: byte, short, int, long, char, float, double, and boolean.
-
-• Integers - This group includes byte, short, int, and long, which are for whole-valued signed numbers.
+* Integers - This group includes byte, short, int, and long, which are for whole-valued signed numbers.
     long: 64 bits (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807) - useful when big, whole numbers are needed
     int: 32 bits (–2,147,483,648 to 2,147,483,647) - most commonly used integer type
     short: 16 bits (–32,768 to 32,767) - probably the least used Java type
     byte: 8 bits or 1 byte (–128 to 127) - especially useful when you’re working with a stream of data from a network or file.
         They are also useful when you’re working with raw binary data that may not be directly compatible with Java’s other built-in types
 
-• Floating-point numbers - This group includes float and double, which represent numbers with fractional precision.
+* Floating-point numbers - This group includes float and double, which represent numbers with fractional precision.
     float: 32 bits (~1.4e–045 to 3.4e+038) - specifies a single-precision value that uses 32 bits of storage.
         Single precision is faster on some processors and takes half as much space as double precision,
         but will become imprecise when the values are either very large or very small.
@@ -17,21 +16,43 @@ The Primitive/Simple Types
         double is the best choice. Double precision is actually faster than single precision on some modern processors that have been optimized
         for high-speed mathematical calculations.
 
-• Characters - This group includes char, which represents symbols in a character set, like letters and numbers.
+* Characters - This group includes char, which represents symbols in a character set, like letters and numbers.
     char: 16 bits (0 to 65,535) - Java uses Unicode to represent characters. Unicode defines a fully international character set
         that can represent all of the characters found in all human languages. It is a unification of dozens of character sets,
         such as Latin, Greek, Arabic, Cyrillic, Hebrew, Katakana, Hangul, and many more.
 
-• Boolean - This group includes boolean, which is a special type for representing true/false values.
+* Boolean - This group includes boolean, which is a special type for representing true/false values.
     boolean - It can have only one of two possible values, true or false. This is the type returned by all relational operators.
 
-DECLARATION
-type identifier [ = value ][, identifier [= value ] …]; //TODO: revise, too confusing
+DECLARATION & INITIALIZATION
+  Format: type identifier [ = value ][, identifier [= value ] …];
+    type identifier = value; e.g. int x = 8;
+    type identifier = value, identifier = value; e.g. int x = 8, y = 10;
+    type identifier; e.g. int a;
+    type identifier, identifier; e.g. int a, b;
+
     type is one of Java’s atomic types or the name of a class or interface
     identifier is the name of the variable
 
-TODO: Elaborate on this concept
-typecasting
-type conversion
-type promotion
-truncation
+TYPE CONVERSIONS AND CASTING
+Implicit Type Conversion - also known as coercion or type juggling
+* Automatic Type Conversion - when one type of data is assigned to another type of variable (widening conversion)
+    Condition:
+      - The two types are compatible. e.g. integer and floating-point types
+      - The destination type is larger than the source type. e.g. byte -> int
+* Type Promotion - when one type of data is automatically converted into another data type representing a superset of the original type
+    Condition:
+      - All byte, short, and char values are promoted to int
+      - If one operand is a long, the whole expression is promoted to long
+      - If one operand is a float, the entire expression is promoted to float
+      - If any of the operands are double, the result is double
+
+Explicit Type Conversion
+* Type Casting - when one type of data is assigned to another type but explicitly making the value narrower so that it will fit into the target type (narrowing conversion)
+    Format: (target-type) value
+      e.g int a;
+          byte b;
+          b = (byte) a;
+* Truncation - when a floating-point value is assigned to an integer type
+
+
