@@ -1,10 +1,23 @@
 # java-notes
-Commit Message Tags
 
-[NOTES] - Accompanying notes discussing the concept
+#### Contents
+**Variables**
+- Overview
+  - Dynamic Initialization
+  - Type Promotion
 
-[SAMPLE] - Implementation of the concept
+**Control Statements**
+  - If Statement
+  - For Loop
 
-[TEST] - Changes made to debug or test 
+**Arrays**
+- Overview
+  - Array Example
+  - Array Example Improved
 
-[TABLE] - Tabular illustration of concepts
+#### Commit Message Tags
+
+- [**NOTES**] - Accompanying notes discussing the concept
+- [**SAMPLE**] - Implementation of the concept
+- [**TEST**] - Changes made to debug or test
+- [**TABLE**] - Tabular illustration of concepts

@@ -4,10 +4,19 @@ DEFINITION
   - A specific element in an array is accessed by its index.
 
 DECLARATION
-  type[] var-name;
+  Format: (one-dimensional)
+    type[] var-name;
+    type var-name[];
+  Format: (two-dimensional)
+    type[][] var-name;
+    type var-name[][];
+  Format: (three-dimensional)
+    type[][][] var-name;
+    type var-name[][][];
+
   - type declares the element type (also called the base type) of the array
   - element type determines the data type of each element that comprises the array
   - var-name is the identifier or name you assigned to the array
 
-INITIALIZATION
-  array-var = new type [size];
+INSTANTIATION
+   Format: array-var = new type [size];

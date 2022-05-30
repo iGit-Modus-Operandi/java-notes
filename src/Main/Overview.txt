@@ -28,3 +28,7 @@ Inheritance - is the process by which one object acquires the properties of anot
 Polymorphism - from Greek, meaning “many forms”, is a feature that allows one interface to be used for a general class of actions.
   • Overriding - overwriting the method of a parent class with another implementation from the child class
   • Overloading - changing the behavior of a particular model depending on the parameter used during the invocation of that method
+
+NAMING CONVENTIONS
+PascalNamingConvention -> Classes
+camelCaseNamingConvention -> Methods
