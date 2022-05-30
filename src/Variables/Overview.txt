@@ -1,4 +1,4 @@
-RPIMITIVE / SIMPLE TYPES
+PRIMITIVE / SIMPLE TYPES
     Java defines eight primitive types of data: byte, short, int, long, char, float, double, and boolean.
 * Integers - This group includes byte, short, int, and long, which are for whole-valued signed numbers.
     long: 64 bits (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807) - useful when big, whole numbers are needed
