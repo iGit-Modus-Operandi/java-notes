@@ -1,4 +1,4 @@
-package ControlStatements;
+package controlStatements;
 // FORMAT: if(condition) statement;
 // FUNCTION: determines the flow of execution based on whether some condition is true or false
 /* IMPLEMENTATION: condition is a Boolean expression, one that evaluates to either true or false.

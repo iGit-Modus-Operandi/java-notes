@@ -1,4 +1,4 @@
-package ControlStatements;
+package controlStatements;
 // FORMAT: for(initialization; condition; iteration) statement;
 // FUNCTION: provide a way to repeatedly execute some task
 /* IMPLEMENTATION: In its most common form, the initialization portion of the loop sets a loop control variable to an initial value.

@@ -1,4 +1,4 @@
-package Records;
+package records;
 
 public class RecordTutorial {
 

@@ -1,4 +1,4 @@
-package Records;
+package records;
 
 // released from 14 onwards, currently using 8, thus the error
 // record is a special type of class
