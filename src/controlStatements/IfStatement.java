@@ -1,8 +1,12 @@
+/*
+* FORMAT: if(condition) statement;
+* FUNCTION: determines the flow of execution based on whether some condition is true or false
+* IMPLEMENTATION: condition is a Boolean expression, one that evaluates to either true or false.
+* If condition is true, then the statement is executed.
+* If condition is false, then the statement is bypassed.
+*/
+
 package controlStatements;
-// FORMAT: if(condition) statement;
-// FUNCTION: determines the flow of execution based on whether some condition is true or false
-/* IMPLEMENTATION: condition is a Boolean expression, one that evaluates to either true or false.
-If condition is true, then the statement is executed. If condition is false, then the statement is bypassed.*/
 
 public class IfStatement {
 

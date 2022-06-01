@@ -35,7 +35,11 @@ DECLARATION & INITIALIZATION
     identifier is the name of the variable
 
 TYPE CONVERSIONS AND CASTING
-Implicit Type Conversion - also known as coercion or type juggling
+Implicit Type Conversion
+ - also known as coercion or type juggling
+ - when the conversion is automatically performed by the compiler without the programmer's interference
+ - the conversion involves a smaller data type to the larger type size
+
 * Automatic Type Conversion - when one type of data is assigned to another type of variable (widening conversion)
     Condition:
       - The two types are compatible. e.g. integer and floating-point types
