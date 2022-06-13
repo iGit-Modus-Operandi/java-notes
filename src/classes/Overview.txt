@@ -1,0 +1,31 @@
+CLASS
+- is at the core of Java
+- it is the logical construct upon which the entire Java language is built
+- it defines the shape and nature of an object
+- forms the basis for object-oriented programming in Java
+- any concept you wish to implement in a Java program must be encapsulated within a class
+
+General Form:
+- When you define a class, you declare its exact form and nature. You do this by specifying the data that it contains and the code that operates on that data.
+- declared by use of the class keyword
+
+Format:
+class classname {
+  type instance-variable1;
+  type instance-variable2;
+  // ...
+  type instance-variableN;
+
+  type methodname1(parameter-list) {
+  // body of method
+  }
+
+  type methodname2(parameter-list) {
+  // body of method
+  }
+
+  // ...
+  type methodnameN(parameter-list) {
+  // body of method
+  }
+}
