@@ -1,6 +1,22 @@
 package methods;
 
-public class Overloading {
+public class OverloadingMethods {
+
+  public static void main(String[] args) {
+    Overloading ob = new Overloading();
+    double result;
+
+    // call all versions of test()
+    ob.test();
+    ob.test(10);
+    ob.test(10, 20);
+    result = ob.test(123.25);
+
+    System.out.println("Result of ob.test(123.25): " + result);
+  }
+}
+
+class Overloading {
 
   void test() {
     System.out.println("No parameters");
@@ -20,18 +36,5 @@ public class Overloading {
   double test(double a) {
     System.out.println("double a: " + a);
     return a * a;
-  }
-}
-
-class Overload {
-  public static void main(String[] args) {
-    Overloading ob = new Overloading();
-    double result;
-// call all versions of test()
-    ob.test();
-    ob.test(10);
-    ob.test(10, 20);
-    result = ob.test(123.25);
-    System.out.println("Result of ob.test(123.25): " + result);
   }
 }
