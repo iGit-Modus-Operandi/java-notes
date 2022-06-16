@@ -3,7 +3,7 @@ package methods;
 public class OverloadingMethods {
 
   public static void main(String[] args) {
-    Overloading ob = new Overloading();
+    Overload ob = new Overload();
     double result;
 
     // call all versions of test()
@@ -16,7 +16,7 @@ public class OverloadingMethods {
   }
 }
 
-class Overloading {
+class Overload {
 
   void test() {
     System.out.println("No parameters");
