@@ -1,0 +1,13 @@
+INHERITANCE
+- one of the cornerstones of object-oriented programming because it allows the creation of hierarchical classifications
+- you can create a general class that defines traits common to a set of related items
+
+superclass - a class that is inherited
+subclass - the class that does the inheriting
+
+Format:
+class subclass-name extends superclass-name {
+  // body of class
+}
+
+
