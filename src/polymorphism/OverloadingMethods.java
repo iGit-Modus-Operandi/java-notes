@@ -1,4 +1,4 @@
-package methods;
+package polymorphism;
 
 public class OverloadingMethods {
 
