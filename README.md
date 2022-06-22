@@ -7,6 +7,11 @@
 * Type Promotion
 * Primitive Types
 
+**Operators**
+* Bitwise Operators
+* Logical Operators
+* Ternary Operators
+
 **Control Statements**
 * If Statement
 * If-Else Ladder
@@ -24,8 +29,11 @@
 
 **Arrays**
 * Overview
-  * Array Example
-  * Array Example Improved
+* Array Example
+* Array Example Improved
+* Multidimensional Arrays
+
+**Classes**
 
 ### Commit Message Tags
 
