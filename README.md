@@ -3,12 +3,24 @@
 ### Contents
 **Variables**
 * Overview
-  * Dynamic Initialization
-  * Type Promotion
+* Dynamic Initialization
+* Type Promotion
+* Primitive Types
 
 **Control Statements**
-  - If Statement
-  - For Loop
+* If Statement
+* If-Else Ladder
+* While Loop
+* While Loop Empty
+* Do-While Loop
+* Switch
+* Nested Switch
+* For Loop
+* For Loop Variation
+* For Each
+* Break To Label
+* Continue To Label
+* Return
 
 **Arrays**
 * Overview
