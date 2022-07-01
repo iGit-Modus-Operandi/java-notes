@@ -5,9 +5,14 @@ import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// import org.apache.commons.lang3.time.FastDateFormat;
+// thread-safe
+
 public class SimpleDateFormatUnsafe {
 
   private static  final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+  // Possible solution:
+  // private static  final FastDateFormat dateFormat = FastDateFormat.getInstance("yyyy-MM-dd'T'HH:mm:ss");
 
   public static void main(String[] args) {
 
