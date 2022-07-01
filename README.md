@@ -49,3 +49,7 @@
 * [**SAMPLE**] - Implementation of the concept
 * [**TEST**] - Changes made to debug or test
 * [**TABLE**] - Tabular illustration of concepts
+
+#### References
+
+***Java - The Complete Reference, 12th Edition***
