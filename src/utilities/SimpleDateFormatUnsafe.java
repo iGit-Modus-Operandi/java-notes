@@ -20,6 +20,10 @@ public class SimpleDateFormatUnsafe {
       public void run() {
         try{
           Date date = dateFormat.parse(dateString);
+          // Possible solution:
+          // Date date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").parse(dateString);
+          // instantiate new SimpleDateFormat every time you use it
+
           System.out.println("Successfully parsed: " + date);
         }catch (Exception e){
           System.out.println("Exception: ");
