@@ -10,6 +10,8 @@ public class HashMapSample {
     crypto.put("Bitcoin", "BTC");
     crypto.put("Etherium", "ETH");
     crypto.put("XRP", "XRP");
+    crypto.put("Polygon", "MATIC");
+    crypto.put("Chainlink", "LINK");
 
     System.out.println(crypto);
 
