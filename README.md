@@ -39,9 +39,16 @@
 * Inner Classes
 * Static Keyword
 
-**Methods**
+**Inheritance**
+* Simple Inheritance
+
+**Polymorphism**
 * Overloading Constructor
 * Overloading Methods
+
+**Collections**
+* HashMap
+
 
 ### Commit Message Tags
 
