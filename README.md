@@ -49,7 +49,13 @@
 **Collections**
 * HashMap
 
+**Enumeration**
+* Days of The Week
+
 **Annotations**
+* Simple Date Format
+
+**Utilities**
 * Custom
 
 ### Commit Message Tags
