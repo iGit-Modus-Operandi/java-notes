@@ -49,6 +49,8 @@
 **Collections**
 * HashMap
 
+**Annotations**
+* Custom
 
 ### Commit Message Tags
 
