@@ -1,0 +1,5 @@
+ENCAPSULATION
+- refers to the idea of binding object state and behavior together into a single unit
+
+
+
