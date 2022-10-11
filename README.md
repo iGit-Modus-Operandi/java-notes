@@ -46,7 +46,8 @@
 * Overloading Constructor
 * Overloading Methods
 
-**Collections**
+**Data Structures**
+* Queue
 * HashMap
 
 **Enumeration**
