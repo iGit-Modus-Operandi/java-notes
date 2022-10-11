@@ -1,4 +1,4 @@
-package collections;
+package dataStructures.hashMap;
 import java.util.HashMap;
 
 public class HashMapSample {
