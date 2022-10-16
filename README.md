@@ -49,6 +49,7 @@
 **Data Structures**
 * Queue
 * HashMap
+* Linked List
 
 **Enumeration**
 * Days of The Week
