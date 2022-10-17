@@ -7,6 +7,7 @@ public class StackSample {
   public static void main(String[] args) {
     Stack<String> stack = new Stack<>();
 
+    // Adding an element to the stack using push method
     System.out.println("START main");
     stack.push("main");
 
