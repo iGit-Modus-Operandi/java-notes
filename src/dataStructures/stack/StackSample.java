@@ -21,8 +21,11 @@ public class StackSample {
     stack.push("parse-external-data");
 
     // Removing an element to the stack using pop method
-    System.out.println("END" + stack.pop());
-    System.out.println("END" + stack.pop());
-    System.out.println("END" + stack.pop());
+    System.out.println("END " + stack.pop());
+    System.out.println("END " + stack.pop());
+    System.out.println("END " + stack.pop());
+
+    // Viewing the top-most element without removing it from the stack
+    System.out.println(stack.peek());
   }
 }
