@@ -20,5 +20,8 @@ public class StackSample {
     System.out.println("START parse-external-data");
     stack.push("parse-external-data");
 
+    System.out.println("END" + stack.pop());
+    System.out.println("END" + stack.pop());
+    System.out.println("END" + stack.pop());
   }
 }
