@@ -20,6 +20,7 @@ public class StackSample {
     System.out.println("START parse-external-data");
     stack.push("parse-external-data");
 
+    // Removing an element to the stack using pop method
     System.out.println("END" + stack.pop());
     System.out.println("END" + stack.pop());
     System.out.println("END" + stack.pop());
