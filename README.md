@@ -48,7 +48,9 @@
 
 **Data Structures**
 * Stack
+  * Next Greater Element
 * Queue
+  * Print Binary
 * Linked List
 * HashMap
 
