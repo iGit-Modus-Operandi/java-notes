@@ -53,6 +53,7 @@
   * Print Binary
 * Linked List
 * HashMap
+  * Display Frequency of Occurrence
 
 **Enumeration**
 * Days of The Week
