@@ -49,11 +49,15 @@
 **Data Structures**
 * Stack
   * Next Greater Element
+  * Stack Example
 * Queue
   * Print Binary
+  * Queue Example
 * Linked List
+  * Linked List Example
 * HashMap
   * Display Frequency of Occurrence
+  * HashMap Example
 
 **Enumeration**
 * Days of The Week
