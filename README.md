@@ -77,6 +77,6 @@
 
 #### References
 
-***Java - The Complete Reference, 12th Edition***
+***Java - The Complete Reference, 12th Edition by Herbert Schildt***
 
 https://www.youtube.com/c/CodingwithJohn
