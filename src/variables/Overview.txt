@@ -31,8 +31,8 @@ DECLARATION & INITIALIZATION
     type identifier; e.g. int a;
     type identifier, identifier; e.g. int a, b;
 
-    type is one of Java’s atomic types or the name of a class or interface
-    identifier is the name of the variable
+    type - is one of Java’s atomic types or the name of a class or interface
+    identifier - is the name of the variable
 
 TYPE CONVERSIONS AND CASTING
 Implicit Type Conversion
