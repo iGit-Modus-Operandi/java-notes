@@ -3,8 +3,8 @@
  * FORMAT: while(condition) statement;
  * FUNCTION: allows code to be executed repeatedly based on a given Boolean condition
  * IMPLEMENTATION: condition is a Boolean expression, one that evaluates to either true or false.
- * The statement is executed for as long as the condition is TRUE.
- * Else, the loop ends.
+ *    The statement is executed for as long as the condition is TRUE.
+ *    Else, the loop ends.
  */
 
 package controlStatements;
