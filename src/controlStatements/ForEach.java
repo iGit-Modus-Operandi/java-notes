@@ -1,3 +1,13 @@
+/*
+ *
+ * FORMAT: for(type variableName : arrayName) {statement};
+ * FUNCTION: Used exclusively to loop through elements or traverse in an array or collection
+ * IMPLEMENTATION: The loop execute the indicated executable statement as it traverse or go through
+ *    each item of the array or collection. The loop ends once it exhaust all the element of the
+ *    array or collection.
+ *
+ */
+
 package controlStatements;
 
 public class ForEach {
