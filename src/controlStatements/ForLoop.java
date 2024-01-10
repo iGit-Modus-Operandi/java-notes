@@ -1,4 +1,5 @@
 /*
+*
 * FORMAT: for(initialization; condition; iteration) statement;
 * FUNCTION: provide a way to repeatedly execute some task
 * IMPLEMENTATION: In its most common form, the initialization portion of the loop sets a loop
@@ -9,6 +10,7 @@
 *       If it is false, the loop terminates.
 *       The iteration expression determines how the loop control variable is changed each time the
 *    loop iterates.
+*
 */
 
 package controlStatements;
