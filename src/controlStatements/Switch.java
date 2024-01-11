@@ -1,3 +1,15 @@
+/*
+ *
+ * FORMAT: switch(expression) {case 'value1':  statement1; break; case 'value 2': statement2; break;
+ *    ...}
+ * FUNCTION: allows for the selection of one code blocks among many possible cases
+ * IMPLEMENTATION: The switch expression is evaluated once.
+ *    The value of the expression is compared with the values of each case.
+ *    If there is a match, the associated block of code is executed.
+ *    The break and default keywords are optional.
+ *
+ */
+
 package controlStatements;
 
 public class Switch {
