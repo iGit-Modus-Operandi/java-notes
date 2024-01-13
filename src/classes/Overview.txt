@@ -21,16 +21,16 @@ class classname {
   // ...
   type instance-variableN;
 
-  type methodname1(parameter-list) {
+  type methodName1(parameter-list) {
   // body of method
   }
 
-  type methodname2(parameter-list) {
+  type methodName2(parameter-list) {
   // body of method
   }
 
   // ...
-  type methodnameN(parameter-list) {
+  type methodNameN(parameter-list) {
   // body of method
   }
 }
