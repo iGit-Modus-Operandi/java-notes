@@ -4,16 +4,16 @@ public class Constructors {
 
   public static void main(String[] args) {
     // declare, allocate, and initialize Box objects
-    Box mybox1 = new Box();
-    Box mybox2 = new Box();
+    Box myBox1 = new Box();
+    Box myBox2 = new Box();
 
     double vol;
     // get volume of first box
-    vol = mybox1.volume();
+    vol = myBox1.volume();
     System.out.println("Volume is " + vol);
 
     // get volume of second box
-    vol = mybox2.volume();
+    vol = myBox2.volume();
     System.out.println("Volume is " + vol);
   }
 }
