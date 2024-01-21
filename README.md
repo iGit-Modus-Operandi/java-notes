@@ -66,7 +66,7 @@
 * Simple Date Format
 
 **Utilities**
-* Custom
+* SimpleDateFormatUnsafe
 
 ### Commit Message Tags
 
