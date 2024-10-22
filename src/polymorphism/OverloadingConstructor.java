@@ -4,9 +4,9 @@ public class OverloadingConstructor {
 
   public static void main(String[] args) {
     // create boxes using the various constructors
-    Box myBox1 = new Box(10, 20, 15);
-    Box myBox2 = new Box();
-    Box myCube = new Box(7);
+    Box myBox1 = new BoxBuilder().setW(10).setH(20).setD(15).createBox();
+    Box myBox2 = new BoxBuilder().createBox();
+    Box myCube = new BoxBuilder().setLen(7).createBox();
     double vol;
 
     // get volume of first box
