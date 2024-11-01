@@ -1,34 +1,59 @@
 HISTORY
-  Java was developed by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan in 1991 in Sun MicroSystems which was later acquired by Oracle.
-  It was originally called Oak after a real oak tree that stood outside Gosling's office. Later it was renamed to green and finally into Java, inspired by the coffee.
+  - Java was developed by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan in 1991 in Sun MicroSystems which was later acquired by Oracle.
+  - It was originally called Oak after a real oak tree that stood outside Gosling's office. Later it was renamed to green and finally into Java, inspired by the coffee.
 
 EDITIONS
-Standard Edition (SE)
-Enterprise Edition (EE)
-Micro Edition (ME)
-Java Card ()
+* Standard Edition (SE)
+* Enterprise Edition (EE)
+* Micro Edition (ME)
+* Java Card ()
 
-• Simple
-• Secure
-• Portable
-• Object-oriented
-• Robust
-• Multithreaded
-• Architecture-neutral
-• Interpreted
-• High performance
-• Distributed
-• Dynamic
+PROPERTIES
+  - Simple
+  - Secure
+  - Portable
+  - Object-oriented
+  - Robust
+  - Multithreaded
+  - Architecture-neutral
+  - Interpreted
+  - High performance
+  - Distributed
+  - Dynamic
 
 PILLARS OF OOP
-Abstraction
-Encapsulation - a protective wrapper that prevents the code and data from being arbitrarily accessed by other code defined outside the wrapper.
-  Access to the code and data inside the wrapper is tightly controlled through a well-defined interface.
-Inheritance - is the process by which one object acquires the properties of another object.
-Polymorphism - from Greek, meaning “many forms”, is a feature that allows one interface to be used for a general class of actions.
-  • Overriding - overwriting the method of a parent class with another implementation from the child class
-  • Overloading - changing the behavior of a particular model depending on the parameter used during the invocation of that method
+* Abstraction
+* Encapsulation
+    - A protective wrapper that prevents the code and data from being arbitrarily accessed by other code defined outside the wrapper.
+    - Access to the code and data inside the wrapper is tightly controlled through a well-defined interface.
+* Inheritance
+    - is the process by which one object acquires the properties of another object.
+* Polymorphism
+    - from Greek, meaning “many forms”, is a feature that allows one interface to be used for a general class of actions.
+      * Overriding: overwriting the method of a parent class with another implementation from the child class
+      * Overloading: changing the behavior of a particular model depending on the parameter used during the invocation of that method
 
-NAMING CONVENTIONS
-PascalNamingConvention -> Classes
-camelCaseNamingConvention -> Methods
+ATOMIC ELEMENTS
+* whitespace
+    - includes space, tab, newline, or form feed
+* identifiers
+    - used to name things such as classes, variables, and methods
+    - may be any descriptive sequence of uppercase and lowercase letters, numbers, or the underscore (beginning JDK 9, cannot be used by itself) and dollar-sign (not intended for general use)
+    - must not begin with a number (they may be confused with a numeric literal)
+    - case-sensitive
+      * Naming Conventions
+        - PascalNamingConvention -> Classes
+        - camelCaseNamingConvention -> Methods
+* literals
+    - representation of constant value in Java
+    - can be used anywhere a value of its type is allowed
+* comments
+    * single-line
+    * multiline
+    * documentation comment
+      - used to produce an HTML file that documents your program
+      - begins with a /** and ends with a */
+* separators
+* operators
+* keywords
+    - there are 67 keywords currently defined in the Java language

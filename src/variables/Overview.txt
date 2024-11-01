@@ -59,4 +59,19 @@ Explicit Type Conversion
           b = (byte) a;
 * Truncation - when a floating-point value is assigned to an integer type
 
+TYPE INFERENCE
+var - context-sensitive keyword for local variable type inference
+  Format: var identifier
+  Condition:
+    - context sensitive, when used as the type name, it tells the compiler to use type inference (e.g.
+      var avg = 10.0). However, in most other places, it is simply a user-defined identifier (e.g. int var = 1)
+    - for array use, the declaration doesn't use brackets (var myArray = new int[10])
+    - can be used to declare a variable ony when the variable is initialized (e.g. var counter)
+    - only one variable can be declared at a time
+    - a variable cannot use null as an initializer
+    - the variable being declared cannot be used by the initializer expression (e.g. var myArray = {1,2,3}
+    - cannot be used as the name of a class, interface, enumeration, or annotation, when declaring instance variables, parameters, or return types
+    - cannot be used to declare the exception type caught by a catch statement
+    - neither lambda expressions nor method reference can be used as initializers
+
 
