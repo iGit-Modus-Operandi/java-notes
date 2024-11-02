@@ -29,5 +29,4 @@ public class ArithmeticOperators {
     System.out.println("dd = " + dd);
     System.out.println("de = " + de);
   }
-
 }
